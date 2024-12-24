@@ -1,0 +1,16 @@
+[error] /opt/graphx-scripts/load_google_graph.scala:1:12: object apache is not a member of package org
+[error] import org.apache.spark.graphx._
+[error]            ^
+[error] /opt/graphx-scripts/load_google_graph.scala:2:12: object apache is not a member of package org
+[error] import org.apache.spark.rdd.RDD
+[error]            ^
+[error] /opt/graphx-scripts/load_google_graph.scala:3:12: object apache is not a member of package org
+[error] import org.apache.spark.sql.SparkSession
+[error]            ^
+[error] /opt/graphx-scripts/load_google_graph.scala:8:17: not found: value SparkSession
+[error]     val spark = SparkSession.builder
+[error]                 ^
+[error] /opt/graphx-scripts/load_google_graph.scala:17:17: not found: value GraphLoader
+[error]     val graph = GraphLoader.edgeListFile(sc, "/opt/graphx-scripts/web-Google.txt")
+[error]                 ^
+[error] 5 errors found
